@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+int h,heur,minute,seconde;
+
+printf("entrer votre temps en seconde  ");
+scanf("%d\n", &h);
+heur=h/3600;
+minute=(h%3600)/60;
+seconde=(h%3600)%60;
+
+ 
+return 0;
+}
